@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" type="image/x-icon" href="assets/favicon.ico">
+    <link rel="icon" href="assets/logo.png" type="image/png">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0">
+    <title>Web Template</title>
+</head>
+
+<body>
+    <div id="app">
+        
+    </div>
+    <div id="loading">
+
+    </div>
+    <style>
+        #loading {
+            background: #262626 no-repeat center center;
+            position: fixed;
+            top: 0; bottom: 0;
+            width: 100%;
+        }
+        body {
+            margin: 0;
+        }
+    </style>
+    <script>
+        document.getElementById('loading').style.backgroundImage = 'url(./res/loading.gif)';
+    </script>
+    <script src="./main.js"></script>
+</body>
+
+</html>
